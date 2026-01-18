@@ -1,0 +1,242 @@
+@import url('./style.css');
+
+body {
+    background-color: rgba(24, 26, 28, 1);
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.logo {
+  width: 28px;
+  margin-right: 16px;
+}
+
+.nav-item {
+  margin-right: 14px;
+}
+
+.nav-link {
+  font-size: 10px;
+  line-height: 140%;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  letter-spacing: 0.2px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.profile .photo {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+.movie-container {
+  padding: 40px 20px 24px;
+  background-image: url('../images/movie-background.png');
+}
+
+.movie-container h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 120%;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  letter-spacing: 0%;
+}
+
+.movie-container p {
+  font-size: 12px;
+  line-height: 140%;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  letter-spacing: 0.2px;
+  margin-bottom: 20px;
+}
+
+.movie-container button {
+  font-size: 12px;
+  line-height: 140%;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  letter-spacing: 0.2px;
+  border-radius: 48px;
+  background-color: rgba(15, 30, 147, 1);
+  margin-right: 8px;
+  padding: 4px 12px;
+  border: 0.48px;
+}
+
+.movie-container button:first-of-type {
+  background-color: rgba(15, 30, 147, 1);
+  color: #ffffff;
+}
+
+.movie-container button:last-of-type {
+  background-color: #2a2a2a;
+  color: #ffffff;
+}
+
+.movie-container > p:last-of-type {
+  display: inline-block;
+  font-size: 11px;
+  padding: 4px;
+  border: 1px solid rgba(193, 194, 196, 1);
+  border-radius: 24px;
+}
+
+.card,
+.card-2 {
+  padding: 20px 20px;
+}
+
+.card h5,
+.card-2 h5 {
+  font-size: 20px;
+  line-height: 120%;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  letter-spacing: 0%;
+  margin-bottom: 20px;
+}
+
+ol {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  overflow-x: auto;
+}
+
+.movie-picture {
+  width: 309px;
+  height: 151px;
+  border-radius: 5px;
+  margin-bottom: 6px;
+}
+
+.movie-title {
+  font-size: 14px;
+  line-height: 140%;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  letter-spacing: 0.2px;
+}
+
+.card-rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.star-images {
+  width: 12px;
+  height: 100%;
+}
+
+.rating {
+  font-size: 12px;
+  line-height: 140%;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  letter-spacing: 0.2px;
+}
+
+.card-3 {
+  position: relative;
+  margin-right: 4px;
+}
+
+.movie-smaller-picture {
+  width: 95px;
+  height: 145px;
+  border-radius: 4px;
+}
+
+.box-top-ten {
+  top: 0px;
+  right: 8px;
+  background-color: rgba(183, 31, 29, 1);
+  padding: 2px 2px;
+  border-bottom-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border: 0.48px;
+  margin-bottom: 40px;
+  position: absolute;
+}
+
+.top-text, .top-number {
+  font-size: 8px;
+  line-height: 140%;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  letter-spacing: 0.1px;
+}
+
+.box-new-ep {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: rgba(15, 30, 147, 1);
+  padding: 2px 5px;
+  border-radius: 12px;
+  border: 0.48px;
+  font-size: 6px;
+  line-height: 140%;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 40px;
+  letter-spacing: 0.1px;
+}
+
+footer {
+  padding: 20px 20px;
+  margin-top: 16px;
+  border-top: 1px solid rgba(231, 227, 252, 0.23);
+}
+
+.footer-logo {
+  width: 84px;
+  margin-bottom: 12px;
+}
+
+.all-rights {
+  font-size: 12px;
+  line-height: 140%;
+  font-weight: 400;
+  color: rgba(193, 194, 196, 1);
+  margin-bottom: 40px;
+  letter-spacing: 0.2px;
+}
+
+.genre,
+.help {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+
+.footer-next-icon {
+  width: 8px;
+}
